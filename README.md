@@ -1,30 +1,36 @@
 # ai-brand-studio
 
-用 AI 辅助做创意工作流的地方。
+**AI-assisted creative workflows for brand and content work.**
 
-## 为什么有这个仓库
+Prompt systems, brand voice experiments, and content generation frameworks — built to turn AI from a novelty into a working part of the creative process.
 
-品牌活儿夹在策略、叙事和视觉中间，而 AI 工具在每一块都在变强。可怎么把它们顺起来用，还在摸索。这个仓库就是那间实验室。
+---
 
-## 里面有什么
+## Why this exists
 
-- **prompt 系统**：给品牌语气、调性、创意方向用的结构化 prompt
-- **品牌语气实验**：试不同模型怎么理解、还原一个品牌的个性
-- **内容生成框架**：从选题到草稿到打磨，能复用的流水线
-- **创意自动化例子**：帮创意过程省掉重复动作的小脚本和工作流
+Most AI content looks generated. This studio is a working lab for the opposite: using AI to protect and extend a brand's voice, not flatten it.
 
-## 思路
+The goal is not "more content, faster." The goal is **structure** — repeatable workflows that keep quality high when AI is in the loop.
 
-不是「AI 替代创意」，而是拿它当创意的放大器：重复的交给工具，策略的部分留给脑子。
+## What's inside
 
-## 用到什么
+| Path | Contents |
+|---|---|
+| `brand-voice/` | Prompt systems for capturing and reproducing a brand voice |
+| `frameworks/` | Content generation frameworks — idea → draft → edit |
+| `experiments/` | Documented experiments: what worked, what didn't |
 
-Python · LLM API（ChatGPT / Gemini / DeepSeek）· prompt 工程 · 自动化脚本
+## Tools explored
 
-## 还在做
+`ChatGPT` · `CodeX` · `DeepSeek` · `WorkBuddy` · `dots`
 
-- 多模型对比看板
-- 品牌语气评分
-- 好用的 prompt 共享格式
+## Roadmap
 
-*在语言模型和品牌创意的交叉口上折腾。*
+- [ ] Publish brand-voice prompt system v1
+- [ ] Add campaign ideation workflow
+- [ ] Document evaluation criteria for AI-assisted drafts
+- [ ] Case study: rebuilding one content series with an AI workflow
+
+---
+
+*Part of the K5LY studio — see the full picture on the [profile](https://github.com/K5LY).*
